@@ -21,6 +21,7 @@ public class UserTests {
 
     @BeforeClass
     public void setupData(){
+        // this is for data setup using faker
         faker=new Faker();
         userPayload=new User();
 
